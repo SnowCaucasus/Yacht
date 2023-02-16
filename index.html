@@ -47,18 +47,15 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Yacht.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Yacht.data",
-        frameworkUrl: buildUrl + "/Yacht.framework.js",
-        codeUrl: buildUrl + "/Yacht.wasm",
+        dataUrl: buildUrl + "/Yacht.data.unityweb",
+        frameworkUrl: buildUrl + "/Yacht.framework.js.unityweb",
+        codeUrl: buildUrl + "/Yacht.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SnowCaucasus",
         productName: "Yacht",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
-
-      canvas.style.width = "1280px";
-      canvas.style.height = "720px";
 
       loadingBar.style.display = "block";
 
